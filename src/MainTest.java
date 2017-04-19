@@ -39,4 +39,12 @@ public class MainTest {
 
     }
 
+    @Test
+    public void doesASentenceWithWrongSpacesReturnFalse() throws Exception {
+        boolean expected = false;
+        boolean actual = Main.palindrome("Never a foot too far, even.");
+        assertEquals(expected, actual);
+
+    }
+
 }

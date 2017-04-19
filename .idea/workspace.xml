@@ -29,8 +29,8 @@
       <file leaf-file-name="MainTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="36" column="43" lean-forward="false" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+            <state relative-caret-position="595">
+              <caret line="44" column="69" lean-forward="false" selection-start-line="44" selection-start-column="69" selection-end-line="44" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -189,7 +189,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.MainTest.doesAReturnTrue">
+  <component name="RunManager" selected="JUnit.MainTest.doesASentenceWithWrongSpacesReturnFalse">
     <configuration default="false" name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="palindrome" />
@@ -199,27 +199,6 @@
       <option name="MAIN_CLASS_NAME" value="MainTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="MainTest.palindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="palindrome" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <option name="METHOD_NAME" value="palindrome" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -282,6 +261,27 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainTest" />
       <option name="METHOD_NAME" value="doesAReturnTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MainTest.doesASentenceWithWrongSpacesReturnFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="palindrome" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="doesASentenceWithWrongSpacesReturnFalse" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -670,18 +670,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.MainTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MainTest.palindrome" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MainTest.doesFrankReturnFalse" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MainTest.doesTheReturnFalse" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MainTest.doesAReturnTrue" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MainTest.doesFrankReturnFalse" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MainTest.doesTheReturnFalse" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MainTest.doesAReturnTrue" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MainTest.doesASentenceWithWrongSpacesReturnFalse" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MainTest.doesAReturnTrue" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MainTest.doesTheReturnFalse" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MainTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MainTest.doesFrankReturnFalse" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MainTest.palindrome" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MainTest.doesASentenceWithWrongSpacesReturnFalse" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MainTest.doesAReturnTrue" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MainTest.doesTheReturnFalse" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MainTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MainTest.doesFrankReturnFalse" />
       </list>
     </recent_temporary>
   </component>
@@ -695,7 +695,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1492613972205</updated>
-      <workItem from="1492613981262" duration="1059000" />
+      <workItem from="1492613981262" duration="1165000" />
     </task>
     <servers />
   </component>
@@ -706,14 +706,14 @@
     <history-entry file="MainTest - 2017.04.19 at 11h 25m 37s.xml">
       <configuration name="MainTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MainTest_doesAReturnTrue - 2017.04.19 at 11h 26m 17s.xml">
+      <configuration name="MainTest.doesAReturnTrue" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="MainTest_doesFrankReturnFalse - 2017.04.19 at 11h 21m 03s.xml">
       <configuration name="MainTest.doesFrankReturnFalse" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MainTest_doesTheReturnFalse - 2017.04.19 at 11h 25m 54s.xml">
       <configuration name="MainTest.doesTheReturnFalse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTest_palindrome - 2017.04.19 at 11h 15m 28s.xml">
-      <configuration name="MainTest.palindrome" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MainTest_palindrome - 2017.04.19 at 11h 16m 12s.xml">
       <configuration name="MainTest.palindrome" configurationId="JUnit" />
@@ -732,7 +732,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1059000" />
+    <option name="totallyTimeSpent" value="1165000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1023" extended-state="6" />
@@ -749,9 +749,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25824177" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16593407" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12100737" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -797,8 +797,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="36" column="43" lean-forward="false" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+        <state relative-caret-position="595">
+          <caret line="44" column="69" lean-forward="false" selection-start-line="44" selection-start-column="69" selection-end-line="44" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
