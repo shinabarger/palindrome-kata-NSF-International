@@ -9,9 +9,16 @@ import static junit.framework.Assert.assertEquals;
 public class MainTest {
 
     @Test
-    public void palindrome() throws Exception {
+    public void doesAnnReturnTrue() throws Exception {
         boolean expected = true;
         boolean actual = Main.palindrome("anna");
+        assertEquals(expected, actual);
+
+    }
+    @Test
+    public void doesFrankReturnFalse() throws Exception {
+        boolean expected = false;
+        boolean actual = Main.palindrome("frank");
         assertEquals(expected, actual);
 
     }

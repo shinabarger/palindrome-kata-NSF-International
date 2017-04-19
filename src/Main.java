@@ -5,7 +5,15 @@ public class Main {
 
     }
     public static Boolean palindrome(String exampleWord) {
-        return true;
+        char beginningOfWord;
+        char endOfWord;
+        int lengthOfWord = exampleWord.length();
+
+
+        if(exampleWord.charAt(0) == exampleWord.charAt(lengthOfWord-1)) {
+            return true;
+        }
+        else return false;
     }
 
 }
