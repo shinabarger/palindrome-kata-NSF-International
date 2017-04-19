@@ -9,11 +9,15 @@ public class Main {
         char endOfWord;
         int lengthOfWord = exampleWord.length();
 
+        for(int i = 0; i <= lengthOfWord; i++) {
 
-        if(exampleWord.charAt(0) == exampleWord.charAt(lengthOfWord-1)) {
-            return true;
+            if (exampleWord.charAt(i) != exampleWord.charAt(lengthOfWord - 1)) {
+                return false;
+
+            } else lengthOfWord -= 1;
+
         }
-        else return false;
+        return  true;
     }
 
 }

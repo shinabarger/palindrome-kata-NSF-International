@@ -23,4 +23,20 @@ public class MainTest {
 
     }
 
+    @Test
+    public void doesTheReturnFalse() throws Exception {
+        boolean expected = false;
+        boolean actual = Main.palindrome("the");
+        assertEquals(expected, actual);
+
+    }
+
+    @Test
+    public void doesAReturnTrue() throws Exception {
+        boolean expected = true;
+        boolean actual = Main.palindrome("a");
+        assertEquals(expected, actual);
+
+    }
+
 }
