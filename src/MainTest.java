@@ -47,4 +47,12 @@ public class MainTest {
 
     }
 
+    @Test
+    public void doesASentenceWithCorrectSpacesReturnTrue() throws Exception {
+        boolean expected = true;
+        boolean actual = Main.palindrome("Noel sees Leon");
+        assertEquals(expected, actual);
+
+    }
+
 }

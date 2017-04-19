@@ -5,9 +5,11 @@ public class Main {
 
     }
     public static Boolean palindrome(String exampleWord) {
+
         char beginningOfWord;
         char endOfWord;
         int lengthOfWord = exampleWord.length();
+        exampleWord = exampleWord.toLowerCase();
 
         for(int i = 0; i <= lengthOfWord; i++) {
 
